@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+</head>
+
+<body>
+    <h2>Chat app</h2>
+
+    <input type="text" id="message" placeholder="Enter message" />
+    <button id="sendMsg">Send message</button>
+
+    <div id="allMessages">
+
+    </div>
+
+    <!-- instead of package because venilla js use -->
+    <!-- so we can use client side of socket here -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
